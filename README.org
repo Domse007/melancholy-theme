@@ -1,0 +1,36 @@
+#+TITLE: melancholy-theme
+#+AUTHOR: @sodoscarfono
+* Screenshots
+#+CAPTION: melancholy-theme in emmet-mode
+#+NAME: fig.emmet-mode
+[[file:melancholy-screen-emmet-mode.png]]
+
+#+CAPTION: melancholy-theme in org-mode
+#+NAME: fig.org-mode
+[[file:melancholy-screen-org-mode.png]]
+
+* Installation
+** Manual
+
+Download melancholy-theme.el to the directory ~/.emacs.d/themes/.  Add this to your .emacs:
+#+BEGIN_SRC emacs-lisp
+
+(add-to-list 'custom-theme-load-path "~/.emacs.d/themes/")
+
+#+END_SRC
+
+Now you can load the theme with the interactive function load-theme like this:
+
+ M-x load-theme RET melancholy
+
+** Melpa
+
+Melancholy is available in both MELPA Stable and MELPA.
+
+You can install melancholy with the following command:
+
+ M-x package-install melancholy-theme
+
+To load it automatically on Emacs startup add this to your init file:
+
+ (load-theme 'melancholy t)
