@@ -30,7 +30,7 @@ Download melancholy-theme.el to the directory ~/.emacs.d/themes/.  Add this to y
 
 Now you can load the theme with the interactive function load-theme like this:
 
-M-x load-theme RET melancholy
+    M-x load-theme RET melancholy
 
 ## Melpa<a id="sec-2-2" name="sec-2-2"></a>
 
@@ -38,8 +38,8 @@ Melancholy is available in both MELPA Stable and MELPA.
 
 You can install melancholy with the following command:
 
-M-x package-install melancholy-theme
+    M-x package-install melancholy-theme
 
 To load it automatically on Emacs startup add this to your init file:
 
-(load-theme 'melancholy t)
+    (load-theme 'melancholy t)
