@@ -28,19 +28,21 @@
 
 (deftheme melancholy  "A dark theme for dark minds ")
 
-(defvar melancholy-default-colors-alist
-  '(("melancholy-black"           . "#161A1F")
-    ("melancholy-white"           . "#DBDBDB")
-    ("melancholy-light-gray"    .  "8C8C8C")
-    ("melancholy-gray"             . "#555555")
-    ("melancholy-dark-gray"    . "#000000")
-    ("melancholy-green"           . "#96BF33")
-    ("melancholy-blue"             . "#00BFFF")
-    ("melancholy-purple"         . "#F37DEE")
-    ("melancholy-pink"             . "#F92769")
-    ("melancholy-red"              . "red")
-    ("melancholy-orange"        . "orange")
-    ("melancholy-yellow"         . "yellow")))
+;;; wip
+;;
+;; (defvar melancholy-default-colors-alist
+;;  '(("melancholy-black"           . "#161A1F")
+;;     ("melancholy-white"           . "#DBDBDB")
+;;     ("melancholy-light-gray"    .  "8C8C8C")
+;;     ("melancholy-gray"             . "#555555")
+;;     ("melancholy-dark-gray"    . "#000000")
+;;     ("melancholy-green"           . "#96BF33")
+;;     ("melancholy-blue"             . "#00BFFF")
+;;     ("melancholy-purple"         . "#F37DEE")
+;;     ("melancholy-pink"             . "#F92769")
+;;     ("melancholy-red"              . "red")
+;;     ("melancholy-orange"        . "orange")
+;;     ("melancholy-yellow"         . "yellow")))
   
 ;;; Theme Faces
 (custom-theme-set-faces
