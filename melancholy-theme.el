@@ -1,4 +1,4 @@
-;;; melancholy-theme.el --- A low contrast color theme for Emacs.
+;;; melancholy-theme.el --- A dark theme for dark minds who use Emacs.
 
 ;; Copyright (C) 2016 Sod Oscarfono
 
