@@ -27,17 +27,17 @@ Now you can load the theme with the interactive function load-theme like this:
 
 #+END_EXAMPLE
 
-** Melpa
++** Melpa+
 
-Melancholy is available in both MELPA Stable and MELPA.
++Melancholy is available in both MELPA Stable and MELPA.+
 
-You can install melancholy with the following command:
++You can install melancholy with the following command:+
 
-#+BEGIN_EXAMPLE
++#+BEGIN_EXAMPLE+
 
-M-x package-install melancholy-theme
++M-x package-install melancholy-theme+
 
-#+END_EXAMPLE
++#+END_EXAMPLE+
 
 To load it automatically on Emacs startup add this to your init file:
 
