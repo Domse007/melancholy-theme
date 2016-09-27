@@ -1,6 +1,10 @@
 #+TITLE: melancholy-theme
 #+AUTHOR: @sodoscarfono
 * Screenshots
+#+CAPTION: melancholy-theme in dired-mode
+#+NAME: fig.dired-mode
+[[file:melancholy-screen-dired-mode.png]]
+
 #+CAPTION: melancholy-theme in emmet-mode
 #+NAME: fig.emmet-mode
 [[file:melancholy-screen-emmet-mode.png]]
@@ -27,6 +31,7 @@ Now you can load the theme with the interactive function load-theme like this:
 
 #+END_EXAMPLE
 
+
 +** Melpa+
 
 +Melancholy is available in both MELPA Stable and MELPA.+
@@ -38,6 +43,7 @@ Now you can load the theme with the interactive function load-theme like this:
 +M-x package-install melancholy-theme+
 
 +#+END_EXAMPLE+
+
 
 To load it automatically on Emacs startup add this to your init file:
 

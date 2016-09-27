@@ -15,6 +15,8 @@
 
 # Screenshots<a id="sec-1" name="sec-1"></a>
 
+![img](melancholy-screen-dired-mode.png "melancholy-theme in dired-mode")
+
 ![img](melancholy-screen-emmet-mode.png "melancholy-theme in emmet-mode")
 
 ![img](melancholy-screen-org-mode.png "melancholy-theme in org-mode")
