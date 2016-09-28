@@ -6,6 +6,7 @@
 <li><a href="#sec-2">2. Installation</a>
 <ul>
 <li><a href="#sec-2-1">2.1. Manual</a></li>
+<li><a href="#sec-2-2">2.2. Melpa</a></li>
 </ul>
 </li>
 </ul>
@@ -33,17 +34,18 @@ Now you can load the theme with the interactive function load-theme like this:
 
     M-x load-theme RET melancholy
 
-<del>\*\* Melpa</del>
+## Melpa<a id="sec-2-2" name="sec-2-2"></a>
 
-<del>Melancholy is available in both MELPA Stable and MELPA.</del>
+Melancholy is available in  MELPA.
 
-<del>You can install melancholy with the following command:</del>
+You can install melancholy with the following command:
 
-<del>#+BEGIN<sub>EXAMPLE</sub></del>
+    M-x package-install melancholy-theme
 
-<del>M-x package-install melancholy-theme</del>
+or with use-package:
 
-<del>#+END<sub>EXAMPLE</sub></del>
+    (use-package melancholy-theme
+      :ensure t))
 
 To load it automatically on Emacs startup add this to your init file:
 
