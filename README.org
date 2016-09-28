@@ -44,6 +44,7 @@ M-x package-install melancholy-theme
 
 #+END_EXAMPLE
 
+
 or with use-package:
 
 #+BEGIN_EXAMPLE
