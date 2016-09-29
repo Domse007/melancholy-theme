@@ -1,4 +1,4 @@
-;;; melancholy-theme.el --- A dark theme for dark minds who use Emacs.
+;;; melancholy-theme.el --- A dark theme for dark minds
 
 ;; Copyright (C) 2016 Sod Oscarfono
 
@@ -26,7 +26,7 @@
 
 ;;; Code:
 
-(deftheme melancholy  "A dark theme for dark minds ")
+(deftheme melancholy  "A dark theme for dark minds")
 
 ;;; wip
 ;;
