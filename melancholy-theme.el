@@ -252,10 +252,10 @@
 ;; menu                                    
 '(minibuffer-prompt ((t (:foreground "#00BFFF"))))
 '(mode-line ((t (:foreground "#00BFFF" :background "#333333"))))
- '(mode-line-buffer-id ((t (:weight bold))))
- '(mode-line-emphasis ((t (:weight bold))))
- '(mode-line-highlight ((((class color) (min-colors 88)) (:box (:line-width 2 :color "grey40" :style released-button))) (t (:inherit (highlight)))))
- '(mode-line-inactive ((t (:foreground "#555555" :background "#222222"))))
+'(mode-line-buffer-id ((t (:weight bold))))
+'(mode-line-emphasis ((t (:weight bold))))
+'(mode-line-highlight ((((class color) (min-colors 88)) (:box (:line-width 2 :color "grey40" :style released-button))) (t (:inherit (highlight)))))
+'(mode-line-inactive ((t (:foreground "#555555" :background "#222222"))))
 ;; mouse                                   
 '(next-error ((t (:inherit (region)))))
 ;; nobreak-space                           
@@ -384,7 +384,7 @@
 ;; undo-tree-visualizer-default-face       
 ;; undo-tree-visualizer-register-face      
 ;; undo-tree-visualizer-unmodified-face    
-'(variable-pitch ((t (:family "Sans Serif")))))
+'(variable-pitch ((t (:family "DejaVu sans")))))
 ;; vc-conflict-state                       
 ;; vc-edited-state                         
 ;; vc-locally-added-state                  
@@ -406,6 +406,7 @@
 ;; window-divider-first-pixel              
 ;; window-divider-last-pixel               
 ;; yas--field-debug-face                   
+
 ;; yas-field-highlight-face                
 
 ;;;###autoload
