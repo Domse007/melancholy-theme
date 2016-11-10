@@ -33,22 +33,22 @@
 (custom-theme-set-faces
   'melancholy
 
-;Info-quoted                             
-;bold                                    
-;bold-italic                             
-;bookmark-menu-bookmark                  
-;bookmark-menu-heading                   
-;border                                  
-;buffer-menu-buffer                      
+;; Info-quoted                             
+;; bold                                    
+;; bold-italic                             
+;; bookmark-menu-bookmark                  
+;; bookmark-menu-heading                   
+;; border                                  
+;; buffer-menu-buffer                      
 '(button ((t (:underline (:color foreground-color :style line) :foreground "#F92672"))))
-;calendar-month-header                   
-;calendar-today                          
-;calendar-weekday-header                 
-;calendar-weekend-header                 
-;comint-highlight-input                  
-;comint-highlight-prompt                 
-;company-echo                            
-;company-echo-common                     
+;; calendar-month-header                   
+;; calendar-today                          
+;; calendar-weekday-header                 
+;; calendar-weekend-header                 
+;; comint-highlight-input                  
+;; comint-highlight-prompt                 
+;; company-echo                            
+;; company-echo-common                     
 ;; company-preview                         
 ;; company-preview-common                  
 ;; company-preview-search                  
@@ -116,8 +116,8 @@
 ;; epa-validity-medium                     
 ;; error                                   
 '(escape-glyph ((((background dark)) (:foreground "cyan")) (((type pc)) (:foreground "magenta")) (t (:foreground "brown"))))
-ffap                                    
-;;file-name-shadow                        
+;; ffap                                    
+;; file-name-shadow                        
 '(fixed-pitch ((t (:family "Monospace"))))
 '(font-lock-builtin-face ((t (:foreground "#96BF33"))))
 '(font-lock-comment-delimiter-face ((t (:foreground "#8C8C8C"))))
