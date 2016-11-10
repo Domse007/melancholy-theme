@@ -384,7 +384,7 @@
 ;; undo-tree-visualizer-default-face       
 ;; undo-tree-visualizer-register-face      
 ;; undo-tree-visualizer-unmodified-face    
-'(variable-pitch ((t (:family "Sans Serif"))))
+'(variable-pitch ((t (:family "Sans Serif")))))
 ;; vc-conflict-state                       
 ;; vc-edited-state                         
 ;; vc-locally-added-state                  
