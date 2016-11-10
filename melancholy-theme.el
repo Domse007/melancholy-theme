@@ -324,7 +324,7 @@
 ;; org-scheduled-today                     
 ;; org-sexp-date                           
 ;; org-special-keyword                     
-'(org-table ((t :family "DejaVu sans mono")))
+'(org-table ((t :family "Monospace")))
 ;; org-tag                                 
 ;; org-tag-group                           
 ;; org-target                              
@@ -385,29 +385,6 @@
 ;; undo-tree-visualizer-register-face      
 ;; undo-tree-visualizer-unmodified-face    
 '(variable-pitch ((t (:family "DejaVu sans")))))
-;; vc-conflict-state                       
-;; vc-edited-state                         
-;; vc-locally-added-state                  
-;; vc-locked-state                         
-;; vc-missing-state                        
-;; vc-needs-update-state                   
-;; vc-removed-state                        
-;; vc-state-base                           
-;; vc-up-to-date-state                     
-;; vertical-border                         
-;; warning                                 
-;; widget-button                           
-;; widget-button-pressed                   
-;; widget-documentation                    
-;; widget-field                            
-;; widget-inactive                         
-;; widget-single-line-field                
-;; window-divider                          
-;; window-divider-first-pixel              
-;; window-divider-last-pixel               
-;; yas--field-debug-face                   
-
-;; yas-field-highlight-face                
 
 ;;;###autoload
 (when load-file-name
