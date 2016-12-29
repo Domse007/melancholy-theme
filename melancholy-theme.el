@@ -248,7 +248,7 @@
 '(link ((t (:foreground "#96BF33"))))
 '(link-visited ((default (:inherit (link))) (((class color) (background light)) (:foreground "magenta4")) (((class color) (background dark)) (:foreground "violet"))))
 ;; linum                                   
-'(match ((((class color) (min-colors 88) (background light)) (:background "yellow1")) (((class color) (min-colors 88) (background dark)) (:background "RoyalBlue3")) (((class color) (min-colors 8) (background light)) (:foreground "black" :background "yellow")) (((class color) (min-colors 8) (background dark)) (:foreground "white" :background "#00BFFF")) (((type tty) (class mono)) (:inverse-video t)) (t (:background "gray"))))
+'(match ((((class color) (min-colors 88) (background light)) (:background "yellow1")) (((class color) (min-colors 88) (background dark)) (:background "#00BFFF")) (((class color) (min-colors 8) (background light)) (:foreground "black" :background "yellow")) (((class color) (min-colors 8) (background dark)) (:foreground "white" :background "#00BFFF")) (((type tty) (class mono)) (:inverse-video t)) (t (:background "gray"))))
 ;; menu                                    
 '(minibuffer-prompt ((t (:foreground "#00BFFF"))))
 '(mode-line ((t (:foreground "#00BFFF" :background "#333333"))))
@@ -310,7 +310,7 @@
 '(org-level-8 ((t  )))
 '(org-headline-done ((t (:foreground "#96BF33" :strike-through t))))
 '(org-done ((t (:foreground "#96BF33" :strike-through t))))
-;; org-link                                
+'(org-link ((t (:foreground "#F92672" ))))
 ;; org-list-dt                             
 ;; org-macro                               
 ;; org-meta-line                           
