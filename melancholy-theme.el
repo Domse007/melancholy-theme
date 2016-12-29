@@ -76,7 +76,7 @@
 ;; completions-common-part                 
 ;; completions-first-difference            
 '(cursor ((t (:background "light blue"))))
-'(default ((t (:inherit nil :stipple nil :background "#161A1F" :foreground "#DBDBDB" :inverse-video nil :box nil :strike-through nil :overline nil :underline nil :slant normal :weight normal :height 130 :width normal :foundry "unknown" :family "DejaVu sans"))))
+'(default ((t (:inherit nil :stipple nil :background "#161A1F" :foreground "#DBDBDB" :inverse-video nil :box nil :strike-through nil :overline nil :underline nil :slant normal :weight normal :height 130 :width normal :foundry "unknown" :family "DejaVu sans mono"))))
 ;; diary                                   
 ;; diff-added                              
 ;; diff-changed                            
