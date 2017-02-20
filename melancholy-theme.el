@@ -3,7 +3,7 @@
 ;; Copyright (C) 2016 Sod Oscarfono
 
 ;; Author: Sod Oscarfono <sod@oscarfono.com>
-;; URL: http://github.com/techquila/melancholy-theme.el
+;; URL: http://github.com/techquila/melancholy-theme
 ;; Version: 1.6
 ;; Package-requires:
 
