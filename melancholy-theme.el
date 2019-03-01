@@ -75,8 +75,8 @@
 ;; completions-annotations
 ;; completions-common-part
 ;; completions-first-difference
-'(cursor ((t (:background "light blue"))))
-'(default ((t (:inherit nil :stipple nil :background "#161A1F" :foreground "#DBDBDB" :inverse-video nil :box nil :strike-through nil :overline nil :underline nil :slant normal :weight normal :height 130 :width normal :foundry "unknown" :family "DejaVu sans mono"))))
+  '(cursor ((t (:background "#DBDBDB"))))
+'(default ((t (:inherit nil :stipple nil :background "#161A1F" :foreground "#DBDBDB" :inverse-video nil :box nil :strike-through nil :overline nil :underline nil :slant normal :weight normal :height 99 :width normal :foundry "unknown" :family "Monospace Regular"))))
 ;; diary
 ;; diff-added
 ;; diff-changed
