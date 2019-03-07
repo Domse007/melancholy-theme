@@ -21,10 +21,11 @@
 ;; along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 ;;; Commentary:
-
+;; ========================================
 ;; A dark theme for dark minds.  > Emacs 24
 
 ;;; Code:
+;; ========================================
 
 (deftheme melancholy  "A dark theme for dark minds")
 
@@ -33,28 +34,18 @@
 (custom-theme-set-faces
   'melancholy
 
- ;; window settings
+ ;;;; window and frame settings
  ;; ========================================
- ;; buffer-menu-buffer
- ;;'(border ((t (:foreground "#333333"))))
- ;; scroll-bar
- '(fringe ((t (:background "#161A1F"))))
-;; file-name-shadow
+ '(scroll-bar ((t (:background "#999999" :foreground "#333333"))))
+ '(fringe ((t (:inherit default))))
+ '(vertical-border ((t (:foreground "#666666"))))
+ '(hl-line ((t (:background "#666666"))))
+ '(header-line ((t (:foreground "#DEDEDE" :background "#333333"))))
 
  ;; line numbers
  ;; ========================================
- '(linum ((t (:foreground "#333333" :strikethrough nil))))
-
- '(header-line ((t (:foreground "#DEDEDE" :background "#333333"))))
-
- ;; mouse
- ;; ========================================
-
- ;; show-paren-match
- ;; show-paren-mismatch
-
- ;; nobreak-space
-
+ '(linum ((t (:foreground "#333333" :height 88 :strikethrough nil))))
+  
  ;; base settings
  ;; ========================================
 
@@ -63,23 +54,26 @@
  
  '(bold ((t (:weight bold))))
  '(italic ((t (:slant italic))))
- '(bold-italic ((t (:))))
+ '(bold-italic ((t (:weight bold :slant italic))))
 
  '(default ((t (:inherit nil :stipple nil :background "#161A1F" :foreground "#DBDBDB" :inverse-video nil :box nil :strike-through nil :overline nil :underline nil :slant normal :weight normal :height 99 :width normal :foundry "unknown" :family "Monospace Regular"))))
  '(fixed-pitch ((t (:family "Monospace Regular"))))
  '(variable-pitch ((t (normal :family "ubuntu" :weight normal :height 99))))
 
- '(link ((t (:foreground "#96BF33"))))
- '(link-visited ((default (:inherit (link))) (((class color) (background light)) (:foreground "magenta4")) (((class color) (background dark)) (:foreground "violet"))))
+ '(link ((t (:foreground "#F92672" :underline t :weight bold))))
+ '(link-visited ((default (:inherit (link) :foreground "#FF00FF"))))
 
+ '(shadow ((t (:background "#666666"))))
+
+ '(match ((t (:background "#EEE8AA"))))
  '(highlight ((t (:background "#F92672"))))
- '(lazy-highlight ((t (:foreground "#666" :background "#96BFF0"))))
-
- '(match ((((class color) (min-colors 88) (background light)) (:background "#F92672")) (((class color) (min-colors 88) (background dark)) (:background "#00BFFF")) (((class color) (min-colors 8) (background light)) (:foreground "black" :background "yellow")) (((class color) (min-colors 8) (background dark)) (:foreground "white" :background "#00BFFF")) (((type tty) (class mono)) (:inverse-video t)) (t (:background "gray"))))
-
- '(shadow ((((class color grayscale) (min-colors 88) (background light)) (:foreground "grey50")) (((class color grayscale) (min-colors 88) (background dark)) (:foreground "grey70")) (((class color) (min-colors 8) (background light)) (:foreground "#96BF33")) (((class color) (min-colors 8) (background dark)) (:foreground "yellow"))))
+ '(lazy-highlight ((t (:foreground "#666666" :background "#96BFF0"))))
+ '(secondary-selection ((t (:background "#FFB728"))))
  
- '(secondary-selection ((((class color) (min-colors 88) (background light)) (:background "yellow1")) (((class color) (min-colors 88) (background dark)) (:background "SkyBlue4")) (((class color) (min-colors 16) (background light)) (:background "yellow")) (((class color) (min-colors 16) (background dark)) (:background "SkyBlue4")) (((class color) (min-colors 8)) (:foreground "black" :background "cyan")) (t (:inverse-video t))))
+
+
+
+  
  
  
  '(font-lock-builtin-face ((t (:foreground "#96BF33"))))
@@ -97,17 +91,27 @@
  '(font-lock-type-face ((t (:foreground "#96BFF0"))))
  '(font-lock-variable-name-face ((t (:foreground "#96BF33"))))
  '(font-lock-warning-face ((t (:foreground "#FF6969"))))
- 
- ;; info-quoted
 
- ;; errors
+ '(tooltip ((t (:inherit (variable-pitch) :foreground "#161A1F" :background "#EEE8AA")) (t (:inherit (variable-pitch)))))
+ '(trailing-whitespace ((t (:background "#FF6969"))))
+
+;; mouse
  ;; ========================================
- ;; error
-  '(next-error ((t (:inherit (region)))))
- 
 
- '(escape-glyph ((((background dark)) (:foreground "cyan")) (((type pc)) (:foreground "magenta")) (t (:foreground "brown"))))
- ;; glyphless-char
+ ;; parens / smart-parens
+ ;; ========================================
+ '(show-paren-match ((t (:background "#444444" :weight bold))))
+ '(show-paren-mismatch ((t (:background "#FF6969" :weight bold))))
+ '(sp-show-pair-match-face ((t (:background "#444444" :weight bold))))
+ '(sp-show-pair-mismatch-face ((t (:background "#FF6969" :weight bold))))
+  
+
+ ;; info/errors
+ ;; ========================================
+ '(success ((t (:foreground "#96BF33"))))
+ '(warning ((t (:foreground "#FFB728"))))
+ '(error ((t (:foreground "#FF6347" :weight bold))))
+ '(next-error ((t (:inherit (region)))))
  
  
  ;; bookmarks
@@ -307,8 +311,6 @@
 
  ;; help-argument-name
  
- ;; holiday
-
  ;; info-header-node
  ;; info-header-xref
  ;; info-index-match
@@ -323,15 +325,19 @@
  ;; info-xref-visited
 
  '(isearch ((t (:background "#96BF33" :foreground "#444444"))))
- '(isearch-fail ((t (:background "#00BFFF"))))
+ '(isearch-fail ((t (:background "#00B7FF"))))
  
- ;; menu
- '(minibuffer-prompt ((t (:foreground "#00BFFF"))))
- '(mode-line ((t (:foreground "#00BFFF" :background "#333333"))))
+ ;; minibuffer
+ ;; ========================================
+ '(minibuffer-prompt ((t (:foreground "#00B7FF" :weight bold))))
+
+ ;; modeline
+ ;; ========================================
+ '(mode-line ((t (:background "#333333" :foreground "#00B7FF" ))))
  '(mode-line-buffer-id ((t (:weight bold))))
- '(mode-line-emphasis ((t (:weight bold))))
+ '(mode-line-emphasis ((t (:weight extra-bold))))
  '(mode-line-highlight ((((class color) (min-colors 88)) (:box (:line-width 2 :color "grey40" :style released-button))) (t (:inherit (highlight)))))
- '(mode-line-inactive ((t (:foreground "#555555" :background "#222222"))))
+ '(mode-line-inactive ((t (:background "#222222" :foreground "#555555" ))))
  
 
  ;; org-mode
@@ -369,25 +375,23 @@
  '(org-document-info ((t (:foreground "#00BFFF" :height 1.25 ))))
  ;; org-document-info-keyword
  '(org-document-title ((t (:foreground "#00BFFF" :height 1.75 :weight extra-bold ))))
- ;; org-done
+ '(org-done ((t (:foreground "#96BF33" :strike-through t))))
  ;; org-drawer
  ;; org-ellipsis
  ;; org-footnote
  ;; org-formula
- ;; org-headline-done
+ '(org-headline-done ((t (:foreground "#96BF33" :strike-through t))))
  ;; org-hide
  ;; org-latex-and-related
- '(org-level-1 ((t  :height 1.25 :weight bold)))
- '(org-level-2 ((t  :foreground "#888888" :height 1.15 )))
- '(org-level-3 ((t  :foreground "#888888" )))
- '(org-level-4 ((t  )))
- '(org-level-5 ((t  )))
+ '(org-level-1 ((t  :height 1.802 :weight bold)))
+ '(org-level-2 ((t  :foreground "#888888" :height 1.602 )))
+ '(org-level-3 ((t  :foreground "#888888" :height 1.424)))
+ '(org-level-4 ((t  :foreground "#888888" :height 1.266)))
+ '(org-level-5 ((t  :foreground "#888888" :height 1.125)))
  '(org-level-6 ((t  )))
  '(org-level-7 ((t  )))
  '(org-level-8 ((t  )))
- '(org-headline-done ((t (:foreground "#96BF33" :strike-through t))))
- '(org-done ((t (:foreground "#96BF33" :strike-through t))))
- '(org-link ((t (:foreground "#F92672" ))))
+ '(org-link ((t (:foreground "#F92672" :underline  ))))
  ;; org-list-dt
  ;; org-macro
  ;; org-meta-line
@@ -401,7 +405,7 @@
  ;; org-scheduled-today
  ;; org-sexp-date
  ;; org-special-keyword
- '(org-table ((t :family "Monospace")))
+ '(org-table ((t :family "Monospace Regular")))
  ;; org-tag
  ;; org-tag-group
  ;; org-target
@@ -412,6 +416,8 @@
  ;; org-verse
  ;; org-warning
 
+ ;; outline
+ ;; ========================================
  ;; outline-1
  ;; outline-2
  ;; outline-3
@@ -421,6 +427,8 @@
  ;; outline-7
  ;; outline-8
 
+ ;; package
+ ;; ========================================
  ;; package-description
  ;; package-help-section-name
  ;; package-name
@@ -436,29 +444,15 @@
  ;; package-status-new
  ;; package-status-unsigned
 
- '(powerline-active1 :background "#00B7FF" :foreground "#FFB728")
- '(powerline-active2 :background "#FFB728" :foreground "#00B7FF")
- ;;'(powerline-inactive2 :background ,bg3 :foreground ,fg1)
- ;;'(powerline-inactive2 :background ,bg3 :foreground ,fg1)
-
  '(query-replace ((t (:inherit isearch))))
  '(region ((t (:background "#555555"))))
-
- ;; sp-pair-overlay-face
- ;; sp-show-pair-enclosing
- ;; sp-show-pair-match-face
- ;; sp-show-pair-mismatch-face
- ;; sp-wrap-overlay-closing-pair
- ;; sp-wrap-overlay-face
- ;; sp-wrap-overlay-opening-pair
  ;; success
  ;; tool-bar
- '(tooltip ((((class color)) (:inherit (variable-pitch) :foreground "black" :background "light yellow")) (t (:inherit (variable-pitch)))))
- '(trailing-whitespace ((((class color) (background light)) (:background "red1")) (((class color) (background dark)) (:background "red1")) (t (:inverse-video t))))
- ;; tty-menu-disabled-face
+ 
+;; tty-menu-disabled-face
  ;; tty-menu-enabled-face
  ;; tty-menu-selected-face
- ;; underline
+ 
  ;; undo-tree-visualizer-active-branch-face
  ;; undo-tree-visualizer-current-face
  ;; undo-tree-visualizer-default-face
