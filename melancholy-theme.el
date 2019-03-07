@@ -70,12 +70,6 @@
  '(lazy-highlight ((t (:foreground "#666666" :background "#96BFF0"))))
  '(secondary-selection ((t (:background "#FFB728"))))
  
-
-
-
-  
- 
- 
  '(font-lock-builtin-face ((t (:foreground "#96BF33"))))
  '(font-lock-comment-delimiter-face ((t (:foreground "#8C8C8C"))))
  '(font-lock-comment-face ((t (:foreground "#8C8C8C"))))
@@ -95,9 +89,6 @@
  '(tooltip ((t (:inherit (variable-pitch) :foreground "#161A1F" :background "#EEE8AA")) (t (:inherit (variable-pitch)))))
  '(trailing-whitespace ((t (:background "#FF6969"))))
 
-;; mouse
- ;; ========================================
-
  ;; parens / smart-parens
  ;; ========================================
  '(show-paren-match ((t (:background "#444444" :weight bold))))
@@ -112,18 +103,26 @@
  '(warning ((t (:foreground "#FFB728"))))
  '(error ((t (:foreground "#FF6347" :weight bold))))
  '(next-error ((t (:inherit (region)))))
+
+ ;; info-header-node
+ ;; info-header-xref
+ ;; info-index-match
+ ;; info-menu-header
+ ;; info-menu-star
+ ;; info-node
+ ;; info-title-1
+ ;; info-title-2
+ ;; info-title-3
+ ;; info-title-4
+ ;; info-xref
+ ;; info-xref-visited
  
- 
- ;; bookmarks
- ;;========================================
- ;; bookmark-menu-bookmark
- ;; bookmark-menu-heading
 
  ;; calendar
  ;; ========================================
  ;; calendar-month-header
- ;; calendar-today
- ;; calendar-weekday-header
+ '(calendar-today ((t (:foreground "#96BF33" :weight bold))))
+ '(calendar-weekday-header ((t (:foreground "#FFB728"))))
  ;; calendar-weekend-header
 
  ;; comint-highlight-input
@@ -149,21 +148,7 @@
  ;; company-tooltip-search-selection
  ;; company-tooltip-selection
 
- ;; compilation-column-number
- ;; compilation-error
- ;; compilation-info
- ;; compilation-line-number
- ;; compilation-mode-line-exit
- ;; compilation-mode-line-fail
- ;; compilation-mode-line-run
- ;; compilation-warning
-
- ;; completions-annotations
- ;; completions-common-part
- ;; completions-first-difference
-
- ;; diary
-
+ 
  ;; diff
  ;; ========================================
  ;; diff-added
@@ -197,12 +182,7 @@
 
  ;; eldoc-highlight-function-argument
 
- ;; emmet
- ;; ========================================
- ;; emmet-preview-input
- ;; emmet-preview-output
-
- ;; epa
+;; epa
  ;; ========================================
  ;; epa-field-body
  ;; epa-field-name
@@ -291,7 +271,7 @@
  ;; helm-grep-lineno
  ;; helm-grep-match
  '(helm-header ((t (:background "#F92672" :foreground "#FFFFFF"))))
- '(helm-source-header ((t :background "#696969" :foreground "#161A1F" :family "Open-sans" :height 110 :weight bold)))
+ '(helm-source-header ((t :background "#888888" :foreground "#161A1F" :family "Open-sans" :height 110 :weight bold)))
  ;; helm-header-line-left-margin
  ;; helm-helper
  ;; helm-history-deleted
@@ -311,18 +291,6 @@
 
  ;; help-argument-name
  
- ;; info-header-node
- ;; info-header-xref
- ;; info-index-match
- ;; info-menu-header
- ;; info-menu-star
- ;; info-node
- ;; info-title-1
- ;; info-title-2
- ;; info-title-3
- ;; info-title-4
- ;; info-xref
- ;; info-xref-visited
 
  '(isearch ((t (:background "#96BF33" :foreground "#444444"))))
  '(isearch-fail ((t (:background "#00B7FF"))))
@@ -336,8 +304,8 @@
  '(mode-line ((t (:background "#333333" :foreground "#00B7FF" ))))
  '(mode-line-buffer-id ((t (:weight bold))))
  '(mode-line-emphasis ((t (:weight extra-bold))))
- '(mode-line-highlight ((((class color) (min-colors 88)) (:box (:line-width 2 :color "grey40" :style released-button))) (t (:inherit (highlight)))))
- '(mode-line-inactive ((t (:background "#222222" :foreground "#555555" ))))
+ '(mode-line-highlight ((t (:box (:line-width 2 :color "#666666" :style released-button))) (t (:inherit (highlight)))))
+ '(mode-line-inactive ((t (:background "#222222" :foreground "#666666" ))))
  
 
  ;; org-mode
@@ -348,11 +316,11 @@
  ;; org-agenda-column-dateline
  ;; org-agenda-current-time
  ;; org-agenda-date
- ;; org-agenda-date-today
- ;; org-agenda-date-weekend
+ '(org-agenda-date-today ((t (:foreground "#96BF33" :weight bold))))
+'(org-agenda-date-weekend ((t (:foreground "#666666"))))
  ;; org-agenda-diary
  ;; org-agenda-dimmed-todo-face
- ;; org-agenda-done
+'(org-agenda-done ((t (:foreground "#666666" :strike-through t))))
  ;; org-agenda-filter-category
  ;; org-agenda-filter-regexp
  ;; org-agenda-filter-tags
@@ -380,7 +348,7 @@
  ;; org-ellipsis
  ;; org-footnote
  ;; org-formula
- '(org-headline-done ((t (:foreground "#96BF33" :strike-through t))))
+ '(org-headline-done ((t (:foreground "#666666" :strike-through t))))
  ;; org-hide
  ;; org-latex-and-related
  '(org-level-1 ((t  :height 1.802 :weight bold)))
