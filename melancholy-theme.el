@@ -123,10 +123,9 @@
  ;; calendar-month-header
  '(calendar-today ((t (:foreground "#96BF33" :weight bold))))
  '(calendar-weekday-header ((t (:foreground "#FFB728"))))
- ;; calendar-weekend-header
-
- ;; comint-highlight-input
- ;; comint-highlight-prompt
+ '(calendar-weekend-header ((t (:foreground "#666666"))))
+ '(calendar-holiday-marker ((t (:foreground "#666666"))))
+ 
 
  ;; company
  ;; ========================================
