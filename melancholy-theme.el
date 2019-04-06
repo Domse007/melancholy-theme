@@ -126,7 +126,6 @@
  '(calendar-weekend-header ((t (:foreground "#666666"))))
  '(calendar-holiday-marker ((t (:foreground "#666666"))))
  
-
  ;; company
  ;; ========================================
  ;; company-echo
@@ -285,7 +284,7 @@
  ;; helm-resume-need-update
  '(helm-selection ((t (:background "#00B7FF" :foreground "#161A1F"))))
  ;;'(helm-selection-line ((t (:background "#F92672" :foreground: "#FFFFFF"))))
- ;;'(helm-separator)
+ '(helm-separator ((t (:background "#FFB728"))))
  ;; helm-visible-mark
 
  ;; help-argument-name
