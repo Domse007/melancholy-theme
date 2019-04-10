@@ -75,7 +75,7 @@
  '(font-lock-comment-face ((t (:foreground "#8C8C8C"))))
  '(font-lock-constant-face ((t (:foreground "#DFAF8F"))))
  '(font-lock-doc-face ((t (:foreground "#FFB728"))))
- '(font-lock-function-name-face ((t (:foreground "#00BFFF"))))
+ '(font-lock-function-name-face ((t (:foreground "#00B7FF"))))
  '(font-lock-keyword-face ((t (:foreground "#F92672" :height 121 :weight bold))))
  '(font-lock-negation-char-face ((t (:foreground "#F37DEE"))))
  '(font-lock-preprocessor-face ((t (:foreground "#F92672"))))
@@ -268,8 +268,8 @@
  ;; helm-grep-finish
  ;; helm-grep-lineno
  ;; helm-grep-match
- '(helm-header ((t (:background "#F92672" :foreground "#FFFFFF"))))
- '(helm-source-header ((t :background "#888888" :foreground "#161A1F" :family "Open-sans" :height 110 :weight bold)))
+ '(helm-header ((t ( :foreground "#FFFFFF"))))
+ '(helm-source-header ((t (:foreground "#666666" :family "Open-sans" :height 125 :weight bold :underline t) )))
  ;; helm-header-line-left-margin
  ;; helm-helper
  ;; helm-history-deleted
@@ -325,9 +325,9 @@
  ;; org-agenda-restriction-lock
  ;; org-agenda-structure
  ;; org-archived
- '(org-block ((t (:foreground "#00BFFF" :box nil))))
- '(org-block-begin-line ((t (:background "#444444" :foreground "#00BFFF"))))
- '(org-block-end-line ((t (:background "#444444" :foreground "#00BFFF"))))
+ '(org-block ((t (:foreground "#00B7FF" :box nil))))
+ '(org-block-begin-line ((t (:background "#444444" :foreground "#00B7FF"))))
+ '(org-block-end-line ((t (:background "#444444" :foreground "#00B7FF"))))
  ;;'org-checkbox
  ;; org-checkbox-statistics-done
  ;; org-checkbox-statistics-todo
@@ -338,9 +338,9 @@
  ;; org-date
  ;; org-date-selected
  ;; org-default
- '(org-document-info ((t (:foreground "#00BFFF" :height 1.25 ))))
+ '(org-document-info ((t (:foreground "#00B7FF" :height 1.25 ))))
  ;; org-document-info-keyword
- '(org-document-title ((t (:foreground "#00BFFF" :height 1.75 :weight extra-bold ))))
+ '(org-document-title ((t (:foreground "#00B7FF" :height 1.75 :weight extra-bold ))))
  '(org-done ((t (:foreground "#96BF33" :strike-through t))))
  ;; org-drawer
  ;; org-ellipsis
@@ -352,11 +352,11 @@
  '(org-level-1 ((t  :height 1.125 :weight bold)))
  '(org-level-2 ((t  :foreground "#888888" )))
  '(org-level-3 ((t  :foreground "#FFB728" )))
- '(org-level-4 ((t  :foreground "#00BFFF" )))
+ '(org-level-4 ((t  :foreground "#00B7FF" )))
  '(org-level-5 ((t  :foreground "#96BF33" )))
  '(org-level-6 ((t  :foreground "#DBADBB" )))
  '(org-level-7 ((t  :foreground "#F5F5F5" )))
- '(Org-link ((t (:foreground "#F92672" :underline  ))))
+ '(Org-link ((t (:foreground "#F92672" :underline t ))))
  ;; org-list-dt
  ;; org-macro
  ;; org-meta-line
