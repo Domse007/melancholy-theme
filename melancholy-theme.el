@@ -67,7 +67,7 @@
 
  '(match ((t (:background "#EEE8AA"))))
  '(highlight ((t (:background "#F92672"))))
- '(lazy-highlight ((t (:foreground "#666666" :background "#96BFF0"))))
+ '(lazy-highlight ((t (:foreground "#333333" :background "#96BF33"))))
  '(secondary-selection ((t (:background "#FFB728"))))
  
  '(font-lock-builtin-face ((t (:foreground "#96BF33"))))
