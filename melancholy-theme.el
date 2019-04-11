@@ -124,7 +124,6 @@
 
     ;; calendar
     ;; ========================================
-    ;; calendar-month-header
     `(calendar-today ((t (:foreground ,my-highlight :weight bold))))
     `(calendar-weekday-header ((t (:foreground ,my-info))))
     `(calendar-weekend-header ((t (:foreground ,my-contrast))))
@@ -167,23 +166,23 @@
     `(org-block-begin-line ((t (:background ,my-subtle :foreground ,my-pop))))
     `(org-block-end-line ((t (:background ,my-subtle :foreground ,my-pop))))
     `(org-document-info ((t (:foreground ,my-pop :height 1.25 ))))
-    `(org-document-title ((t (:foreground ,my-pop :height 1.75 :weight extra-bold ))))
+    `(org-document-title ((t (:foreground ,my-pop :height 1.35 :weight extra-bold ))))
     `(org-done ((t (:foreground ,my-highlight :strike-through t))))
     `(org-headline-done ((t (:foreground ,my-contrast :strike-through t))))
     `(org-level-1 ((t  :height 1.125 :weight bold)))
-    `(org-level-2 ((t  :foreground "#888888" )))
+    `(org-level-2 ((t  :foreground ,my-active )))
     `(org-level-3 ((t  :foreground ,my-info )))
     `(org-level-4 ((t  :foreground ,my-pop )))
     `(org-level-5 ((t  :foreground ,my-highlight )))
-    `(org-level-6 ((t  :foreground "#DBADBB" )))
-    `(org-level-7 ((t  :foreground "#F5F5F5" )))
+    `(org-level-6 ((t  :foreground ,my-contrast )))
+    `(org-level-7 ((t  :foreground ,my-hicontrast )))
     `(Org-link ((t (:foreground ,my-active :underline t ))))
     `(org-table ((t :family "Monospace Regular")))
     `(query-replace ((t (:inherit isearch))))
     `(region ((t (:background ,my-visited))))
 
-  ) ;; ends custom-theme-set-faces
-) ;; ends let
+    ) ;; custom-theme-set-faces ends here
+) ;; let ends here
 
 
 ;;;###autoload
