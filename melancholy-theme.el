@@ -166,7 +166,7 @@
     `(org-block-begin-line ((t (:background ,my-subtle :foreground ,my-pop))))
     `(org-block-end-line ((t (:background ,my-subtle :foreground ,my-pop))))
     `(org-document-info ((t (:foreground ,my-pop :height 1.25 ))))
-    `(org-document-title ((t (:foreground ,my-pop :height 1.35 :weight extra-bold ))))
+    `(org-document-title ((t (:foreground ,my-info :height 1.35 :weight extra-bold ))))
     `(org-done ((t (:foreground ,my-highlight :strike-through t))))
     `(org-headline-done ((t (:foreground ,my-contrast :strike-through t))))
     `(org-level-1 ((t  :height 1.125 :weight bold)))
