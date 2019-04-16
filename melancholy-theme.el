@@ -34,17 +34,18 @@
 (deftheme melancholy
   "A dark theme for dark minds")
 
-(let ((my-active     "#F92672")
-       (my-visited    "#999999")
-       (my-info       "#FFB728")
-       (my-highlight  "#96BF33")
-       (my-contrast   "#666666")
-       (my-hicontrast "#DEDEDE")
-       (my-shadow     "#333333")
-       (my-pop        "#00B7FF")
-       (my-warning    "#FF6969")
-       (my-btw        "#8B4538")
-       (my-white      "#FFFFFF")
+(let ((my-active       "#F92672")
+       (my-visited      "#999999")
+       (my-info         "#FFB728")
+       (my-highlight    "#96BF33")
+       (my-contrast     "#666666")
+       (my-deepcontrast "#444444")
+       (my-hicontrast   "#DEDEDE")
+       (my-shadow       "#333333")
+       (my-pop          "#00B7FF")
+       (my-warning      "#FF6969")
+       (my-btw          "#8B4538")
+       (my-white        "#FFFFFF")
       )
 
 ;;;; Theme Faces
@@ -54,7 +55,7 @@
 
     ;;;; window and frame settings
     ;; ========================================
-    `(fringe ((t (:inherit default))))
+    
     `(header-line ((t (:foreground ,my-hicontrast :background ,my-shadow))))
     `(vertical-border ((t (:foreground ,my-contrast))))
     `(scroll-bar ((t (:background ,my-visited :foreground ,my-shadow))))
@@ -62,7 +63,7 @@
     
     ;; line numbers
     ;; ========================================
-    `(linum ((t (:foreground ,my-shadow :height 88 :strikethrough nil))))
+    `(linum ((t (:foreground ,my-deepcontrast :height 88 :strikethrough nil))))
 
     ;; base settings
     ;; ========================================
@@ -77,17 +78,14 @@
     `(cursor ((t (:background ,my-hicontrast))))
     `(link ((t (:foreground ,my-active :underline t :weight bold))))
     `(link-visited ((t ( :foreground ,my-visited))))
-
-    
-
+    `(fringe ((t (:inherit default))))
     `(match ((t (:background ,my-pop))))
     `(highlight ((t (:background ,my-active))))
     `(lazy-highlight ((t (:foreground ,my-shadow :background ,my-highlight))))
     `(secondary-selection ((t (:background ,my-info))))
-
     `(font-lock-builtin-face ((t (:foreground ,my-highlight))))
-    `(font-lock-comment-delimiter-face ((t (:foreground "#8C8C8C"))))
-    `(font-lock-comment-face ((t (:foreground "#8C8C8C"))))
+    `(font-lock-comment-delimiter-face ((t (:foreground ,my-visited))))
+    `(font-lock-comment-face ((t (:foreground ,my-visited))))
     `(font-lock-constant-face ((t (:foreground "#DFAF8F"))))
     `(font-lock-doc-face ((t (:foreground ,my-info))))
     `(font-lock-function-name-face ((t (:foreground ,my-pop))))
@@ -100,8 +98,7 @@
     `(font-lock-type-face ((t (:foreground ,my-pop))))
     `(font-lock-variable-name-face ((t (:foreground ,my-highlight))))
     `(font-lock-warning-face ((t (:foreground ,my-warning))))
-
-    `(tooltip ((t (:foreground "#161A1F" :background "#EEE8AA")) (t (:inherit (variable-pitch)))))
+    `(tooltip ((t (:foreground ,my-shadow :background "#EEE8AA")) (t (:inherit (variable-pitch)))))
     `(trailing-whitespace ((t (:background ,my-warning))))
 
     ;; parens / smart-parens
@@ -159,9 +156,9 @@
     `(org-agenda-date-today ((t (:foreground ,my-highlight :weight bold))))
     `(org-agenda-date-weekend ((t (:foreground ,my-contrast))))
     `(org-agenda-done ((t (:foreground ,my-contrast :strike-through t))))
-    `(org-block ((t (:foreground ,my-pop :box nil))))
-    `(org-block-begin-line ((t (:background ,my-shadow :foreground ,my-pop))))
-    `(org-block-end-line ((t (:background ,my-shadow :foreground ,my-pop))))
+    `(org-block-begin-line ((t (:background ,my-contrast :foreground ,my-shadow))))
+    `(org-block ((t (:background ,my-deepcontrast :foreground ,my-pop :box nil))))
+    `(org-block-end-line ((t (:background ,my-contrast :foreground ,my-shadow))))
     `(org-document-info ((t (:foreground ,my-pop :height 1.25 ))))
     `(org-document-title ((t (:foreground ,my-info :height 1.35 :weight extra-bold ))))
     `(org-done ((t (:foreground ,my-highlight :strike-through t))))
