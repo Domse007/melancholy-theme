@@ -3,15 +3,15 @@
 * Screenshots
 #+CAPTION: melancholy-theme in dired-mode
 #+NAME: fig.dired-mode
-[[file:melancholy-org-source-blocks.png]]
+[[file:melancholy_org-source-blocks.png]]
 
 #+CAPTION: melancholy-theme in emmet-mode
 #+NAME: fig.emmet-mode
-[[file:melancholy-agenda.png]]
+[[file:melancholy_agenda.png]]
 
 #+CAPTION: melancholy-theme in org-mode
 #+NAME: fig.org-mode
-[[file:melancholy-org-todosce.png]]
+[[file:melancholy_org-todosce.png]]
 
 * Installation
 ** Manual
