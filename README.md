@@ -16,11 +16,11 @@
 
 # Screenshots<a id="sec-1" name="sec-1"></a>
 
-![img](melancholy-screen-dired-mode.png "melancholy-theme in dired-mode")
+![img](melancholy-org-source-blocks.png "melancholy-theme org-mode source blocks")
 
-![img](melancholy-screen-emmet-mode.png "melancholy-theme in emmet-mode")
+![img](melancholy-agenda.png "melancholy-theme showing the org-mode agenda")
 
-![img](melancholy-screen-org-mode.png "melancholy-theme in org-mode")
+![img](melancholy-org-todos.png "melancholy-theme showing the org-mode todos list")
 
 # Installation<a id="sec-2" name="sec-2"></a>
 
