@@ -22,6 +22,8 @@
 
 ![img](screens/melancholy_org-todos.jpg "melancholy-theme showing the org-mode todos list")
 
+![img](screens/melancholy_helm.jpg "melancholy-theme showing helm in action")
+
 # Installation<a id="sec-2" name="sec-2"></a>
 
 ## Manual<a id="sec-2-1" name="sec-2-1"></a>

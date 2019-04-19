@@ -14,6 +14,11 @@
 #+NAME: fig.org-todo
 [[file:melancholy_org-todos.jpg]]
 
+#+CAPTION: melancholy-theme showing helm in action
+#+NAME: fig.helm
+[[file:melancholy_helm.jpg]]
+
+
 * Installation
 ** Manual
 
