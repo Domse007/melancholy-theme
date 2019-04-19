@@ -1,17 +1,18 @@
 #+TITLE: melancholy-theme
 #+AUTHOR: @sodoscarfono
 * Screenshots
-#+CAPTION: melancholy-theme in dired-mode
-#+NAME: fig.dired-mode
-[[file:melancholy_org-source-blocks.png]]
+#+CAPTION: melancholy-theme showing org-mode source blocks
+#+NAME: fig.org-src-blocks
 
-#+CAPTION: melancholy-theme in emmet-mode
-#+NAME: fig.emmet-mode
-[[file:melancholy_agenda.png]]
+[[file:melancholy_org-src-blocks.jpg]]
 
-#+CAPTION: melancholy-theme in org-mode
-#+NAME: fig.org-mode
-[[file:melancholy_org-todosce.png]]
+#+CAPTION: melancholy-theme showing the org-mode agenda
+#+NAME: fig.org-agenda
+[[file:melancholy_org-agenda.jpg]]
+
+#+CAPTION: melancholy-theme showing the org-mode todos list
+#+NAME: fig.org-todo
+[[file:melancholy_org-todos.jpg]]
 
 * Installation
 ** Manual

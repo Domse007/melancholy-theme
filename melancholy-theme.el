@@ -140,6 +140,9 @@
     `(isearch ((t (:background ,my-highlight :foreground ,my-shadow))))
     `(isearch-fail ((t (:background ,my-pop))))
 
+    ;; magit
+    `(magit-section-highlight ((t (:background ,my-deepcontrast))))
+
     ;; minibuffer
     ;; ========================================
     `(minibuffer-prompt ((t (:foreground ,my-pop :weight bold))))
