@@ -66,6 +66,7 @@
     `(linum ((t (:foreground ,my-deepcontrast))))
     `(line-number ((t (:foreground ,my-deepcontrast))))
     `(line-number-current-line ((t (:foreground ,my-highlight))))
+
     ;; base settings
     ;; ========================================
     `(default ((t (:inherit nil :stipple nil :inverse-video nil :box nil :strike-through nil :overline nil :underline nil :slant normal :weight normal :height 99 :width normal :foundry "unknown" :family "Monospace Regular" :background ,my-shadow :foreground ,my-hicontrast ))))
@@ -164,6 +165,7 @@
     `(org-block-begin-line ((t (:background ,my-contrast :foreground ,my-shadow))))
     `(org-block ((t (:background ,my-deepcontrast :foreground ,my-pop :box nil))))
     `(org-block-end-line ((t (:background ,my-contrast :foreground ,my-shadow))))
+    `(org-date ((t (:foreground ,my-visited))))
     `(org-document-info ((t (:foreground ,my-pop :height 1.25 ))))
     `(org-document-title ((t (:foreground ,my-info :height 1.35 :weight extra-bold ))))
     `(org-done ((t (:foreground ,my-highlight :strike-through t))))
@@ -177,8 +179,9 @@
     `(org-level-7 ((t  :foreground ,my-hicontrast )))
     `(org-link ((t (:foreground ,my-active :underline t ))))
     `(org-table ((t :family "Monospace Regular")))
+    
     `(query-replace ((t (:inherit isearch))))
-    `(region ((t (:background ,my-visited))))
+    `(region ((t (:background ,my-deepcontrast))))
 
     ) ;; custom-theme-set-faces ends here
 ) ;; let ends here
