@@ -16,7 +16,7 @@
 
 # Screenshots<a id="sec-1" name="sec-1"></a>
 
-![img](screens/melancholy-theme-buffers/png "melancholy-theme buffers")
+![img](screens/melancholy-theme-buffers.png "melancholy-theme buffers")
 
 ![img](screens/melancholy-theme-startup.png "melancholy-theme showing the org-mode agenda at startup")
 
