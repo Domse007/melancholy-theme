@@ -16,13 +16,13 @@
 
 # Screenshots<a id="sec-1" name="sec-1"></a>
 
-![img](screens/melancholy-theme-buffers/jpg "melancholy-theme buffers")
+![img](screens/melancholy-theme-buffers/png "melancholy-theme buffers")
 
-![img](screens/melancholy-theme-startup.jpg "melancholy-theme showing the org-mode agenda at startup")
+![img](screens/melancholy-theme-startup.png "melancholy-theme showing the org-mode agenda at startup")
 
-![img](screens/melancholy-theme-org-mode-magit.jpg "melancholy-theme showing org-mode and magit")
+![img](screens/melancholy-theme-org-mode-magit.png "melancholy-theme showing org-mode and magit")
 
-![img](screens/melancholy-theme-lisp-view "melancholy-theme showing lisp in action")
+![img](screens/melancholy-theme-lisp-view.png "melancholy-theme showing lisp in action")
 
 # Installation<a id="sec-2" name="sec-2"></a>
 

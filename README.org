@@ -4,19 +4,19 @@
 #+CAPTION: melancholy-theme showing buffers
 #+NAME: fig.buffers
 
-file:melancholy-theme-buffers.jpg
+file:melancholy-theme-buffers.png
 
 #+CAPTION: melancholy-theme showing the org-mode agenda
 #+NAME: fig.org-agenda-startup
-[[file:melancholy-theme-startup.jpg]]
+[[file:melancholy-theme-startup.png]]
 
 #+CAPTION: melancholy-theme showing org-mode and magit
 #+NAME: fig.org-mode-magit
-[[file:melancholy-theme-org-mode-magit.jpg]]
+[[file:melancholy-theme-org-mode-magit.png]]
 
 #+CAPTION: melancholy-theme showing lisp in action
 #+NAME: fig.lisp-view
-[[file:melancholy-theme-lisp-view.jpg]]
+[[file:melancholy-theme-lisp-view.png]]
 
 
 * Installation
