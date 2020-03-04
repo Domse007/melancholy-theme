@@ -4,7 +4,7 @@
 #+CAPTION: melancholy-theme showing buffers
 #+NAME: fig.buffers
 
-[[file:melancholy-theme-buffers.jpg
+file:melancholy-theme-buffers.jpg
 
 #+CAPTION: melancholy-theme showing the org-mode agenda
 #+NAME: fig.org-agenda-startup
