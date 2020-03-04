@@ -1,22 +1,22 @@
 #+TITLE: melancholy-theme
 #+AUTHOR: @sodoscarfono
 * Screenshots
-#+CAPTION: melancholy-theme showing org-mode source blocks
-#+NAME: fig.org-src-blocks
+#+CAPTION: melancholy-theme showing buffers
+#+NAME: fig.buffers
 
-[[file:melancholy_org-src-blocks.jpg]]
+[[file:melancholy-theme-buffers.jpg
 
 #+CAPTION: melancholy-theme showing the org-mode agenda
-#+NAME: fig.org-agenda
-[[file:melancholy_org-agenda.jpg]]
+#+NAME: fig.org-agenda-startup
+[[file:melancholy-theme-startup.jpg]]
 
-#+CAPTION: melancholy-theme showing the org-mode todos list
-#+NAME: fig.org-todo
-[[file:melancholy_org-todos.jpg]]
+#+CAPTION: melancholy-theme showing org-mode and magit
+#+NAME: fig.org-mode-magit
+[[file:melancholy-theme-org-mode-magit.jpg]]
 
 #+CAPTION: melancholy-theme showing helm in action
-#+NAME: fig.helm
-[[file:melancholy_helm.jpg]]
+#+NAME: fig.lisp-view
+[[file:melancholy-theme-lisp-view.jpg]]
 
 
 * Installation
