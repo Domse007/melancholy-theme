@@ -14,7 +14,7 @@ file:melancholy-theme-buffers.jpg
 #+NAME: fig.org-mode-magit
 [[file:melancholy-theme-org-mode-magit.jpg]]
 
-#+CAPTION: melancholy-theme showing helm in action
+#+CAPTION: melancholy-theme showing lisp in action
 #+NAME: fig.lisp-view
 [[file:melancholy-theme-lisp-view.jpg]]
 
