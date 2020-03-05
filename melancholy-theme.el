@@ -77,7 +77,7 @@
     `(region ((t (:background ,my-deepcontrast))))
     `(query-replace ((t (:inherit isearch))))
     `(match ((t (:background ,my-pop))))
-    `(highlight ((t (:background ,my-active))))
+    `(highlight ((t (:background ,my-active :foreground ,my-hicontrast ))))
     `(lazy-highlight ((t (:foreground ,my-shadow :background ,my-highlight))))
     `(fixed-pitch ((t (:family "Ubuntu Mono"))))
     `(variable-pitch ((t (normal :family "Ubuntu" :weight normal :height 99))))
@@ -133,6 +133,9 @@
     ;; ========================================
     `(dired-header ((t (:foreground ,my-pop :background ,my-visited))))
 
+    ;; flycheck
+    `(flycheck-error ((t :underline (:colour ,my-active :style wave ))))
+
     ;; helm
     ;; ========================================
     `(helm-buffer-directory ((t (:foreground ,my-shadow :background ,my-hicontrast))))
@@ -186,6 +189,7 @@
     `(speedbar- ((t :foreground ,my-active )))
     `(speedbar-button-face ((t :foreground ,my-highlight )))
     
+
 
 ;; The End
   ;; =========================================
