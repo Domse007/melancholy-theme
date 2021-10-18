@@ -4,9 +4,8 @@
 
 ;; Author: Sod Oscarfono <sod@oscarfono.com>
 ;; URL: http://github.com/techquila/melancholy-theme
-;; Package-Version: 20190620.1001
+;; Package-Version: 20211019.1001
 ;; Version: 2.0
-;; Package-requires: emacs
 
 ;; This program is free software; you can redistribute it and/or modify
 ;; it under the terms of the GNU General Public License as published by
