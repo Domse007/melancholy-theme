@@ -12,11 +12,11 @@ file:melancholy-theme-buffers.png
 
 #+CAPTION: melancholy-theme showing org-mode and magit
 #+NAME: fig.org-mode-magit
-[[file:melancholy-theme-org-mode-magit.png]]
+[[file:melancholy-theme-magit.png]]
 
-#+CAPTION: melancholy-theme showing lisp in action
+#+CAPTION: melancholy-theme showing init file
 #+NAME: fig.lisp-view
-[[file:melancholy-theme-lisp-view.png]]
+[[file:melancholy-theme-init.png]]
 
 
 * Installation

@@ -20,9 +20,9 @@
 
 ![img](screens/melancholy-theme-startup.png "melancholy-theme showing the org-mode agenda at startup")
 
-![img](screens/melancholy-theme-org-mode-magit.png "melancholy-theme showing org-mode and magit")
+![img](screens/melancholy-theme-magit.png "melancholy-theme showing org-mode and magit")
 
-![img](screens/melancholy-theme-lisp-view.png "melancholy-theme showing lisp in action")
+![img](screens/melancholy-theme-init.png "melancholy-theme showing lisp in action")
 
 # Installation<a id="sec-2" name="sec-2"></a>
 
