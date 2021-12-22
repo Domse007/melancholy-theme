@@ -189,10 +189,15 @@
     `(speedbar- ((t :foreground ,my-active )))
     `(speedbar-button-face ((t :foreground ,my-highlight )))
 
+    ;; doom-modeline
+    ;; =======================================
+    `(doom-modeline-bar ((t :background ,my-active)))
+    `(doom-modeline-buffer-file ((t :inherit ,my-contrast :weight 'bold)))
+    `(doom-modeline-buffer-path ((t :inherit ,my-highlight :weight 'bold)))
+    `(doom-modeline-buffer-project-root ((t :inherit ,my-contrast :weight 'bold)))
 
-
-;; The End
-  ;; =========================================
+    ;; The End
+    ;; =========================================
 
     ) ;; custom-theme-set-faces ends here
 ) ;; let ends here
